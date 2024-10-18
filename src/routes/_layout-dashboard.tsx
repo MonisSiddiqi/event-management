@@ -8,7 +8,7 @@ export const Route = createFileRoute("/_layout-dashboard")({
 
 function LayoutDashboard() {
   return (
-    <div className="mx-auto flex max-h-screen min-h-screen flex-1 flex-col justify-between overflow-hidden max-w-screen-2xl">
+    <div className="mx-auto flex flex-1 flex-col justify-between max-w-screen-2xl">
       <ScrollArea>
         <Outlet />
       </ScrollArea>

@@ -1,6 +1,5 @@
 import * as React from "react";
 import {
-  CaretSortIcon,
   CheckIcon,
   ChevronDownIcon,
   ChevronUpIcon,
@@ -8,7 +7,6 @@ import {
 import * as SelectPrimitive from "@radix-ui/react-select";
 
 import { cn } from "@/lib/utils";
-import { ArrowDown } from "lucide-react";
 
 const Select = SelectPrimitive.Root;
 
